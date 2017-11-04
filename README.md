@@ -1,13 +1,11 @@
-Secure Communication System using Diffie-Hellman Algorithm
+Secure Communication System using Elleptic Curve Diffie Hellman Algorithm
 
-Comile:
-javac *.java
+Comile:\n
+javac -cp ".:bcprov-jdk15on-158.jar" *.java
 
-Run:
-java ServerGUI
-java ClientGUI
--OR-
-java Server [port]
-java Client [username] [port]
-
- 
+Run:\n
+java -cp ".:bcprov-jdk15on-158.jar" ServerGUI\n
+java -cp ".:bcprov-jdk15on-158.jar" ClientGUI\n
+-OR-\n
+java -cp ".:bcprov-jdk15on-158.jar" Server [port]\n
+java -cp ".:bcprov-jdk15on-158.jar" Client [username] [port]\n
